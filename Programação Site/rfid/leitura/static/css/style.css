@@ -1,0 +1,15 @@
+body{
+    padding: 20px;
+    background-color: rgb(34, 129, 22) !important;
+}
+    .button_leitura{
+        padding-top: 20px;
+        display: flex;
+        justify-content: center !important;
+    }
+
+form{
+    width: 500px !important;
+    min-width: 300px !important;
+}
+
