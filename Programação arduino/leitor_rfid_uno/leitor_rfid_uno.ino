@@ -24,8 +24,6 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-  // int valor_som = analogRead(A0);
   int tempo = 500;
 
   if(! leitor.PICC_IsNewCardPresent()){
@@ -36,7 +34,6 @@ void loop() {
   }
 
   if(! leitor.PICC_ReadCardSerial()){
-    //Serial.print("Erro ao ler cartao/tag");
     digitalWrite(led1, LOW);
     digitalWrite(led2, HIGH);
     tone(buzzer, 150, 100);
