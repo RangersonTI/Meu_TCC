@@ -1,7 +1,11 @@
 // ESP32 ->   Wi-Fi A/B/G/N
 
 #include <WiFi.h>
+#include <MFRC522.h>
+
 #define ledAlert 23
+#define RST_PIN 22
+#define SS_PIN 21
 
 String ssid = "JUMENTO BRANCO";
 String password = "banana3338";
