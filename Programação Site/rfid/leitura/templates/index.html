@@ -19,12 +19,11 @@
                 <input type="text" class="form-control" name="rfid" id="rfid" readonly="True" value="{{ rfid }}" placeholder="Fazer leitura do RFID">
             </div>
         </div>
-        <div class="button_leitura">
-            <!--<a href="{% url "leitura_rfid" %}"><button class="btn btn-info">Fazer leitura</button></a>     -->
-            <button id="leitura_rfid" class="btn btn-info">Fazer leitura</button>     
-            <a href="{% url "" %}"><button class="btn btn-info"><- Voltar</button></a>
-        </div>
     </form>
+    <div class="button_leitura">
+        <a href="{% url "leitura_rfid" %}"><button class="btn btn-info">Fazer leitura</button></a>     
+        <a href="{% url "" %}"><button class="btn btn-info"><- Voltar</button></a>
+    </div>
 
     <script src="{% static 'js/script.js' %}"></script>
 
