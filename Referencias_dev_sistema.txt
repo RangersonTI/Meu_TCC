@@ -1,0 +1,5 @@
+DJANGO
+
+https://docs.djangoproject.com/en/5.1/ - Documentação do Django
+https://cursos.alura.com.br/forum/topico-missing-1-required-positional-argument-on_delete-56866
+https://stackoverflow.com/questions/50557234/authentication-plugin-caching-sha2-password-is-not-supported
